@@ -1,0 +1,19 @@
+.cripto {
+    border: 1px solid #202f3d;
+    border-left: 8px solid #202f3d;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.cripto:hover {
+    background-color: #202f3d36;
+}
+
+.info {
+    color: rgb(194, 190, 190);
+}
+
+.label {
+    color: #ffffff;
+}
