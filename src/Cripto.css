@@ -17,3 +17,11 @@
 .label {
     color: #ffffff;
 }
+
+.positivo {
+    color: greenyellow;
+}
+
+.negativo {
+    color: red;
+}
