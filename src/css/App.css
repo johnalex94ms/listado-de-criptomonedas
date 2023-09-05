@@ -4,6 +4,20 @@
     margin: auto;
 }
 
+@media only screen and (max-width: 1280px) {
+
+    .app-container {
+        padding: 2rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+
+    .app-container {
+        padding: 2rem 1rem;
+    }
+}
+
 .cripto-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -12,4 +26,11 @@
     gap: 1.3rem;
     padding-bottom: 1rem;
     padding-right: 1rem;
+}
+
+@media only screen and (max-width: 411px) {
+    .cripto-container {
+        padding: 2rem 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
 }
