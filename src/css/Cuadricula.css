@@ -1,0 +1,57 @@
+.app-container {
+    max-width: 1400px;
+    padding: 2rem 0;
+    margin: auto;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.container-menu .title_main {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.cripto-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    height: 700px;
+    overflow-x: auto;
+    gap: 1.3rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 411px) {
+    .cripto-container {
+        padding: 2rem 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .app-container {
+        padding: 2rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .container-menu {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .cripto-container {
+        height: 600px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .app-container {
+        padding: 2rem 2rem;
+    }
+}

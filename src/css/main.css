@@ -15,9 +15,6 @@ body {
     height: 100vh;
     font-weight: normal;
     background-color: #34495e;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
 
 img {

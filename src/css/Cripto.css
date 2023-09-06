@@ -25,3 +25,23 @@
 .negativo {
     color: red;
 }
+
+.btn-detalle {
+    background-color: rgba(22, 160, 133, 1.0);
+    display: inline-block;
+    line-height: 2;
+    padding: 0rem 0.8rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.btn-detalle:hover {
+    background-color: rgb(17, 153, 126);
+    transition: .1s ease-in;
+}
